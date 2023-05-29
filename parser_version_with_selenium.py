@@ -20,7 +20,6 @@ class Scraper:
         driver = webdriver.Chrome()
         driver.get(self.site)
 
-
         time.sleep(60)
 
         # Extract the page source after JavaScript execution
